@@ -12,6 +12,7 @@ end
 
 def shared_pods
   pod 'Masonry', '~> 1.0.2'
+  pod 'AFNetworking', '~> 3.2.1'
 end
 
 

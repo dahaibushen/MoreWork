@@ -10,6 +10,9 @@
 		161112FC843A3E0863E2F3AD /* libPods-CustomDemoBeta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoBeta.a */; };
 		2342B3CF519D340C4215921E /* libPods-CustomDemo10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */; };
 		7CC86DCC6854FFFA8187435F /* libPods-CustomDemoDev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC3EE190B0D9979CDDBD4CF /* libPods-CustomDemoDev.a */; };
+		853DF955226A029D00B9344C /* libHYYLogic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853DF954226A029D00B9344C /* libHYYLogic.a */; };
+		853DF957226A02A800B9344C /* libHYYLogic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853DF956226A02A800B9344C /* libHYYLogic.a */; };
+		853DF959226A02B100B9344C /* libHYYLogic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853DF958226A02B100B9344C /* libHYYLogic.a */; };
 		85C8772622699A52004504BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772522699A52004504BE /* AppDelegate.m */; };
 		85C8772922699A52004504BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772822699A52004504BE /* ViewController.m */; };
 		85C8772C22699A52004504BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772A22699A52004504BE /* Main.storyboard */; };
@@ -80,6 +83,9 @@
 		2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemo10.release.xcconfig"; path = "Target Support Files/Pods-CustomDemo10/Pods-CustomDemo10.release.xcconfig"; sourceTree = "<group>"; };
 		51A344CAC3C5F71311038450 /* Pods-CustomDemoBeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoBeta.release.xcconfig"; path = "Target Support Files/Pods-CustomDemoBeta/Pods-CustomDemoBeta.release.xcconfig"; sourceTree = "<group>"; };
 		601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemo10.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemo10/Pods-CustomDemo10.debug.xcconfig"; sourceTree = "<group>"; };
+		853DF954226A029D00B9344C /* libHYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYLogic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		853DF956226A02A800B9344C /* libHYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYLogic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		853DF958226A02B100B9344C /* libHYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYLogic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8772122699A52004504BE /* CustomDemo10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemo10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8772422699A52004504BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85C8772522699A52004504BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853DF955226A029D00B9344C /* libHYYLogic.a in Frameworks */,
 				85C878122269DE93004504BE /* libHYYCart.a in Frameworks */,
 				85C877B12269C175004504BE /* libHYYCategory.a in Frameworks */,
 				85C8779A2269C0CE004504BE /* libHYYMine.a in Frameworks */,
@@ -126,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853DF957226A02A800B9344C /* libHYYLogic.a in Frameworks */,
 				85C877D62269D140004504BE /* libDebug.a in Frameworks */,
 				85C877D72269D140004504BE /* libHYYCategory.a in Frameworks */,
 				85C877D82269D140004504BE /* libHYYMine.a in Frameworks */,
@@ -139,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				853DF959226A02B100B9344C /* libHYYLogic.a in Frameworks */,
 				85C877EC2269D57C004504BE /* libDebug.a in Frameworks */,
 				85C877ED2269D57C004504BE /* libHYYCategory.a in Frameworks */,
 				85C877EE2269D57C004504BE /* libHYYMine.a in Frameworks */,
@@ -206,6 +215,9 @@
 		85C8773A22699B2F004504BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				853DF958226A02B100B9344C /* libHYYLogic.a */,
+				853DF956226A02A800B9344C /* libHYYLogic.a */,
+				853DF954226A029D00B9344C /* libHYYLogic.a */,
 				85C878112269DE93004504BE /* libHYYCart.a */,
 				85C877B52269C36F004504BE /* libDebug.a */,
 				85C877B02269C175004504BE /* libHYYCategory.a */,
