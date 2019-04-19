@@ -2,10 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HYYMine/HYYMine.xcodeproj">
+      location = "group:CustomDemo10.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:CustomDemo10.xcodeproj">
+      location = "group:HYYCategory/HYYCategory.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HYYMine/HYYMine.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:HYYHome/HYYHome.xcodeproj">
