@@ -75,7 +75,7 @@
 		85C877B52269C36F004504BE /* libDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDebug.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877B72269C6F1004504BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		85C877CD2269CBA5004504BE /* CustomDemoDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemoDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85C877CE2269CBA6004504BE /* CustomDemo10 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CustomDemo10 copy-Info.plist"; path = "/Users/hu/MoreWork/workspace/CustomDemo10 copy-Info.plist"; sourceTree = "<absolute>"; };
+		85C877CE2269CBA6004504BE /* CustomDemo10Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = CustomDemo10Debug.plist; path = /Users/hu/MoreWork/workspace/CustomDemo10Debug.plist; sourceTree = "<absolute>"; };
 		F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemoDebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -128,7 +128,7 @@
 				85C8772222699A52004504BE /* Products */,
 				85C8773A22699B2F004504BE /* Frameworks */,
 				6FEFB4D0613B8843F4311E8A /* Pods */,
-				85C877CE2269CBA6004504BE /* CustomDemo10 copy-Info.plist */,
+				85C877CE2269CBA6004504BE /* CustomDemo10Debug.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -527,7 +527,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = DZ26N5DKRJ;
-				INFOPLIST_FILE = "CustomDemo10 copy-Info.plist";
+				INFOPLIST_FILE = CustomDemo10Debug.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -552,7 +552,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = "CustomDemo10 copy-Info.plist";
+				INFOPLIST_FILE = CustomDemo10Debug.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
