@@ -23,6 +23,10 @@
     return logic;
 }
 
+-(void)requestData{
+    AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
+}
+
 
 
 @end

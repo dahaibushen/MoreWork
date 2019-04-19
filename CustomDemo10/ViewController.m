@@ -27,7 +27,7 @@
     NSLog(@"look here : %@",base);
     [UIView viewBackGroundColor];
     [self.view getViewHeight];
-    
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 
