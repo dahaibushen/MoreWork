@@ -52,6 +52,7 @@
 		85C877992269C0CE004504BE /* libHYYMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877B02269C175004504BE /* libHYYCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877B52269C36F004504BE /* libDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDebug.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C877B72269C6F1004504BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +85,7 @@
 		85C8771822699A52004504BE = {
 			isa = PBXGroup;
 			children = (
+				85C877B72269C6F1004504BE /* README.md */,
 				85C8772322699A52004504BE /* CustomDemo10 */,
 				85C8772222699A52004504BE /* Products */,
 				85C8773A22699B2F004504BE /* Frameworks */,

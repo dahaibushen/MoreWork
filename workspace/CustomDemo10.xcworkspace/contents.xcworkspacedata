@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Debug/Debug.xcodeproj">
+      location = "group:CustomDemo10.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:CustomDemo10.xcodeproj">
+      location = "group:HYYBase/HYYBase.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:HYYCategory/HYYCategory.xcodeproj">
@@ -17,7 +17,7 @@
       location = "group:HYYHome/HYYHome.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:HYYBase/HYYBase.xcodeproj">
+      location = "group:Debug/Debug.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
