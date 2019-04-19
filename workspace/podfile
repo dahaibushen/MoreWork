@@ -1,7 +1,24 @@
 platform :ios,'8.0'
 
+post_install do |installer_representation|
+  installer_representation.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ONLY_ACTIVE_ARCH'] = 'NO'
+      config.build_settings['ARCHS'] = 'armv7 armv7s arm64'
+      config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '8.0'
+    end
+  end
+end
+
+def shared_pods
+  pod 'Masonry', '~> 1.0.2'
+end
+
+
+def debug_pods
+  pod 'Bugly' , '2.4.8'
+end
+
 target 'CustomDemo10' do
-
-pod 'AFNetworking','~> 3.0.4'
-
+      shared_pods
 end

@@ -45,7 +45,6 @@
 		85C8772D22699A53004504BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C8773022699A53004504BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C8773322699A53004504BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		85C8773B22699B2F004504BE /* HYYBaseCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HYYBaseCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8773D22699B32004504BE /* libHYYBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8776B2269B364004504BE /* libHYYHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877822269BCC1004504BE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,7 +124,6 @@
 				85C877992269C0CE004504BE /* libHYYMine.a */,
 				85C8776B2269B364004504BE /* libHYYHome.a */,
 				85C8773D22699B32004504BE /* libHYYBase.a */,
-				85C8773B22699B2F004504BE /* HYYBaseCommon.framework */,
 				FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */,
 			);
 			name = Frameworks;
