@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2342B3CF519D340C4215921E /* libPods-CustomDemo10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */; };
 		85C8772622699A52004504BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772522699A52004504BE /* AppDelegate.m */; };
 		85C8772922699A52004504BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772822699A52004504BE /* ViewController.m */; };
 		85C8772C22699A52004504BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772A22699A52004504BE /* Main.storyboard */; };
@@ -33,6 +34,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemo10.release.xcconfig"; path = "Target Support Files/Pods-CustomDemo10/Pods-CustomDemo10.release.xcconfig"; sourceTree = "<group>"; };
+		601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemo10.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemo10/Pods-CustomDemo10.debug.xcconfig"; sourceTree = "<group>"; };
 		85C8772122699A52004504BE /* CustomDemo10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemo10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8772422699A52004504BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85C8772522699A52004504BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		85C8773B22699B2F004504BE /* HYYBaseCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HYYBaseCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8773D22699B32004504BE /* libHYYBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8776B2269B364004504BE /* libHYYHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,18 +60,30 @@
 				85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */,
 				85C8773E22699B32004504BE /* libHYYBase.a in Frameworks */,
 				85C8773C22699B2F004504BE /* HYYBaseCommon.framework in Frameworks */,
+				2342B3CF519D340C4215921E /* libPods-CustomDemo10.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FEFB4D0613B8843F4311E8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */,
+				2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		85C8771822699A52004504BE = {
 			isa = PBXGroup;
 			children = (
 				85C8772322699A52004504BE /* CustomDemo10 */,
 				85C8772222699A52004504BE /* Products */,
 				85C8773A22699B2F004504BE /* Frameworks */,
+				6FEFB4D0613B8843F4311E8A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +117,7 @@
 				85C8776B2269B364004504BE /* libHYYHome.a */,
 				85C8773D22699B32004504BE /* libHYYBase.a */,
 				85C8773B22699B2F004504BE /* HYYBaseCommon.framework */,
+				FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,6 +129,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85C8773722699A53004504BE /* Build configuration list for PBXNativeTarget "CustomDemo10" */;
 			buildPhases = (
+				77327E31736DF3AEC92EB41C /* [CP] Check Pods Manifest.lock */,
 				85C8771D22699A52004504BE /* Sources */,
 				85C8771E22699A52004504BE /* Frameworks */,
 				85C8771F22699A52004504BE /* Resources */,
@@ -170,6 +188,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77327E31736DF3AEC92EB41C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomDemo10-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		85C8771D22699A52004504BE /* Sources */ = {
@@ -318,6 +361,7 @@
 		};
 		85C8773822699A53004504BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -343,6 +387,7 @@
 		};
 		85C8773922699A53004504BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;

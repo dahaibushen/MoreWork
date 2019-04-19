@@ -1,0 +1,7 @@
+platform :ios,'8.0'
+
+target 'CustomDemo10' do
+
+pod 'AFNetworking','~> 3.0.4'
+
+end
