@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161112FC843A3E0863E2F3AD /* libPods-CustomDemoBeta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoBeta.a */; };
 		2342B3CF519D340C4215921E /* libPods-CustomDemo10.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */; };
 		85C8772622699A52004504BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772522699A52004504BE /* AppDelegate.m */; };
 		85C8772922699A52004504BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772822699A52004504BE /* ViewController.m */; };
@@ -18,18 +19,17 @@
 		85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8776B2269B364004504BE /* libHYYHome.a */; };
 		85C8779A2269C0CE004504BE /* libHYYMine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877992269C0CE004504BE /* libHYYMine.a */; };
 		85C877B12269C175004504BE /* libHYYCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877B02269C175004504BE /* libHYYCategory.a */; };
-		85C877BB2269CBA5004504BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772822699A52004504BE /* ViewController.m */; };
-		85C877BC2269CBA5004504BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8773322699A53004504BE /* main.m */; };
-		85C877BD2269CBA5004504BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772522699A52004504BE /* AppDelegate.m */; };
-		85C877BF2269CBA5004504BE /* libDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877B52269C36F004504BE /* libDebug.a */; };
-		85C877C02269CBA5004504BE /* libHYYCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877B02269C175004504BE /* libHYYCategory.a */; };
-		85C877C12269CBA5004504BE /* libHYYMine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877992269C0CE004504BE /* libHYYMine.a */; };
-		85C877C22269CBA5004504BE /* libHYYHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8776B2269B364004504BE /* libHYYHome.a */; };
-		85C877C32269CBA5004504BE /* libHYYBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8773D22699B32004504BE /* libHYYBase.a */; };
-		85C877C62269CBA5004504BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772F22699A53004504BE /* LaunchScreen.storyboard */; };
-		85C877C72269CBA5004504BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772D22699A53004504BE /* Assets.xcassets */; };
-		85C877C82269CBA5004504BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772A22699A52004504BE /* Main.storyboard */; };
-		9980B09E1612E27939211E1E /* libPods-CustomDemoDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoDebug.a */; };
+		85C877D22269D140004504BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772822699A52004504BE /* ViewController.m */; };
+		85C877D32269D140004504BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8773322699A53004504BE /* main.m */; };
+		85C877D42269D140004504BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8772522699A52004504BE /* AppDelegate.m */; };
+		85C877D62269D140004504BE /* libDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877B52269C36F004504BE /* libDebug.a */; };
+		85C877D72269D140004504BE /* libHYYCategory.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877B02269C175004504BE /* libHYYCategory.a */; };
+		85C877D82269D140004504BE /* libHYYMine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877992269C0CE004504BE /* libHYYMine.a */; };
+		85C877D92269D140004504BE /* libHYYHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8776B2269B364004504BE /* libHYYHome.a */; };
+		85C877DA2269D140004504BE /* libHYYBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8773D22699B32004504BE /* libHYYBase.a */; };
+		85C877DD2269D140004504BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772F22699A53004504BE /* LaunchScreen.storyboard */; };
+		85C877DE2269D140004504BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772D22699A53004504BE /* Assets.xcassets */; };
+		85C877DF2269D140004504BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772A22699A52004504BE /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,7 +42,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C877C92269CBA5004504BE /* CopyFiles */ = {
+		85C877E02269D140004504BE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -54,9 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14D8D75A229C21BB549AB8D6 /* Pods-CustomDemoDebug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoDebug.release.xcconfig"; path = "Target Support Files/Pods-CustomDemoDebug/Pods-CustomDemoDebug.release.xcconfig"; sourceTree = "<group>"; };
+		0BA42D90F88847F644ED7E0C /* Pods-CustomDemoBeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoBeta.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemoBeta/Pods-CustomDemoBeta.debug.xcconfig"; sourceTree = "<group>"; };
 		2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemo10.release.xcconfig"; path = "Target Support Files/Pods-CustomDemo10/Pods-CustomDemo10.release.xcconfig"; sourceTree = "<group>"; };
-		5DEFF8DAF52DA7E0BEF78901 /* Pods-CustomDemoDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoDebug.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemoDebug/Pods-CustomDemoDebug.debug.xcconfig"; sourceTree = "<group>"; };
 		601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemo10.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemo10/Pods-CustomDemo10.debug.xcconfig"; sourceTree = "<group>"; };
 		85C8772122699A52004504BE /* CustomDemo10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemo10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8772422699A52004504BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -74,9 +73,10 @@
 		85C877B02269C175004504BE /* libHYYCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877B52269C36F004504BE /* libDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libDebug.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877B72269C6F1004504BE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		85C877CD2269CBA5004504BE /* CustomDemoDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemoDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		85C877CE2269CBA6004504BE /* CustomDemo10Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = CustomDemo10Debug.plist; path = /Users/hu/MoreWork/workspace/CustomDemo10Debug.plist; sourceTree = "<absolute>"; };
-		F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoDebug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemoDebug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C877CE2269CBA6004504BE /* CustomDemoBeta.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = CustomDemoBeta.plist; path = /Users/hu/MoreWork/workspace/CustomDemoBeta.plist; sourceTree = "<absolute>"; };
+		85C877E42269D140004504BE /* CustomDemoBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemoBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B908692AF7A20DDE4771D5 /* Pods-CustomDemoBeta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoBeta.release.xcconfig"; path = "Target Support Files/Pods-CustomDemoBeta/Pods-CustomDemoBeta.release.xcconfig"; sourceTree = "<group>"; };
+		F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoBeta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemoBeta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,16 +93,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C877BE2269CBA5004504BE /* Frameworks */ = {
+		85C877D52269D140004504BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C877BF2269CBA5004504BE /* libDebug.a in Frameworks */,
-				85C877C02269CBA5004504BE /* libHYYCategory.a in Frameworks */,
-				85C877C12269CBA5004504BE /* libHYYMine.a in Frameworks */,
-				85C877C22269CBA5004504BE /* libHYYHome.a in Frameworks */,
-				85C877C32269CBA5004504BE /* libHYYBase.a in Frameworks */,
-				9980B09E1612E27939211E1E /* libPods-CustomDemoDebug.a in Frameworks */,
+				85C877D62269D140004504BE /* libDebug.a in Frameworks */,
+				85C877D72269D140004504BE /* libHYYCategory.a in Frameworks */,
+				85C877D82269D140004504BE /* libHYYMine.a in Frameworks */,
+				85C877D92269D140004504BE /* libHYYHome.a in Frameworks */,
+				85C877DA2269D140004504BE /* libHYYBase.a in Frameworks */,
+				161112FC843A3E0863E2F3AD /* libPods-CustomDemoBeta.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,8 +114,8 @@
 			children = (
 				601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */,
 				2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */,
-				5DEFF8DAF52DA7E0BEF78901 /* Pods-CustomDemoDebug.debug.xcconfig */,
-				14D8D75A229C21BB549AB8D6 /* Pods-CustomDemoDebug.release.xcconfig */,
+				0BA42D90F88847F644ED7E0C /* Pods-CustomDemoBeta.debug.xcconfig */,
+				98B908692AF7A20DDE4771D5 /* Pods-CustomDemoBeta.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -128,7 +128,7 @@
 				85C8772222699A52004504BE /* Products */,
 				85C8773A22699B2F004504BE /* Frameworks */,
 				6FEFB4D0613B8843F4311E8A /* Pods */,
-				85C877CE2269CBA6004504BE /* CustomDemo10Debug.plist */,
+				85C877CE2269CBA6004504BE /* CustomDemoBeta.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,7 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				85C8772122699A52004504BE /* CustomDemo10.app */,
-				85C877CD2269CBA5004504BE /* CustomDemoDebug.app */,
+				85C877E42269D140004504BE /* CustomDemoBeta.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 				85C8776B2269B364004504BE /* libHYYHome.a */,
 				85C8773D22699B32004504BE /* libHYYBase.a */,
 				FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */,
-				F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoDebug.a */,
+				F2B23870D220D0A2A38FDED9 /* libPods-CustomDemoBeta.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -193,23 +193,23 @@
 			productReference = 85C8772122699A52004504BE /* CustomDemo10.app */;
 			productType = "com.apple.product-type.application";
 		};
-		85C877B82269CBA5004504BE /* CustomDemoDebug */ = {
+		85C877CF2269D140004504BE /* CustomDemoBeta */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85C877CA2269CBA5004504BE /* Build configuration list for PBXNativeTarget "CustomDemoDebug" */;
+			buildConfigurationList = 85C877E12269D140004504BE /* Build configuration list for PBXNativeTarget "CustomDemoBeta" */;
 			buildPhases = (
-				85C877B92269CBA5004504BE /* [CP] Check Pods Manifest.lock */,
-				85C877BA2269CBA5004504BE /* Sources */,
-				85C877BE2269CBA5004504BE /* Frameworks */,
-				85C877C52269CBA5004504BE /* Resources */,
-				85C877C92269CBA5004504BE /* CopyFiles */,
+				85C877D02269D140004504BE /* [CP] Check Pods Manifest.lock */,
+				85C877D12269D140004504BE /* Sources */,
+				85C877D52269D140004504BE /* Frameworks */,
+				85C877DC2269D140004504BE /* Resources */,
+				85C877E02269D140004504BE /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CustomDemoDebug;
+			name = CustomDemoBeta;
 			productName = CustomDemo10;
-			productReference = 85C877CD2269CBA5004504BE /* CustomDemoDebug.app */;
+			productReference = 85C877E42269D140004504BE /* CustomDemoBeta.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -240,7 +240,7 @@
 			projectRoot = "";
 			targets = (
 				85C8772022699A52004504BE /* CustomDemo10 */,
-				85C877B82269CBA5004504BE /* CustomDemoDebug */,
+				85C877CF2269D140004504BE /* CustomDemoBeta */,
 			);
 		};
 /* End PBXProject section */
@@ -256,13 +256,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C877C52269CBA5004504BE /* Resources */ = {
+		85C877DC2269D140004504BE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C877C62269CBA5004504BE /* LaunchScreen.storyboard in Resources */,
-				85C877C72269CBA5004504BE /* Assets.xcassets in Resources */,
-				85C877C82269CBA5004504BE /* Main.storyboard in Resources */,
+				85C877DD2269D140004504BE /* LaunchScreen.storyboard in Resources */,
+				85C877DE2269D140004504BE /* Assets.xcassets in Resources */,
+				85C877DF2269D140004504BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +291,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		85C877B92269CBA5004504BE /* [CP] Check Pods Manifest.lock */ = {
+		85C877D02269D140004504BE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -306,7 +306,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CustomDemoDebug-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-CustomDemoBeta-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -326,13 +326,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C877BA2269CBA5004504BE /* Sources */ = {
+		85C877D12269D140004504BE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85C877BB2269CBA5004504BE /* ViewController.m in Sources */,
-				85C877BC2269CBA5004504BE /* main.m in Sources */,
-				85C877BD2269CBA5004504BE /* AppDelegate.m in Sources */,
+				85C877D22269D140004504BE /* ViewController.m in Sources */,
+				85C877D32269D140004504BE /* main.m in Sources */,
+				85C877D42269D140004504BE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,9 +520,9 @@
 			};
 			name = Release;
 		};
-		85C877CB2269CBA5004504BE /* Debug */ = {
+		85C877E22269D140004504BE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DEFF8DAF52DA7E0BEF78901 /* Pods-CustomDemoDebug.debug.xcconfig */;
+			baseConfigurationReference = 0BA42D90F88847F644ED7E0C /* Pods-CustomDemoBeta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -532,7 +532,7 @@
 					"COCOAPODS=1",
 					"DemoTest=1",
 				);
-				INFOPLIST_FILE = CustomDemo10Debug.plist;
+				INFOPLIST_FILE = CustomDemoBeta.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -550,14 +550,14 @@
 			};
 			name = Debug;
 		};
-		85C877CC2269CBA5004504BE /* Release */ = {
+		85C877E32269D140004504BE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14D8D75A229C21BB549AB8D6 /* Pods-CustomDemoDebug.release.xcconfig */;
+			baseConfigurationReference = 98B908692AF7A20DDE4771D5 /* Pods-CustomDemoBeta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = CustomDemo10Debug.plist;
+				INFOPLIST_FILE = CustomDemoBeta.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -596,11 +596,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85C877CA2269CBA5004504BE /* Build configuration list for PBXNativeTarget "CustomDemoDebug" */ = {
+		85C877E12269D140004504BE /* Build configuration list for PBXNativeTarget "CustomDemoBeta" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				85C877CB2269CBA5004504BE /* Debug */,
-				85C877CC2269CBA5004504BE /* Release */,
+				85C877E22269D140004504BE /* Debug */,
+				85C877E32269D140004504BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
