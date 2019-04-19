@@ -27,3 +27,8 @@ target 'CustomDemoBeta' do
   shared_pods
   debug_pods
 end
+
+target 'CustomDemoDev' do
+  shared_pods
+  debug_pods
+end
