@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import <HYYBase/HYYBase.h>
-#import <HYYBaseCommon/HYYBaseCommon.h>
 #import <HYYBase/UIView+param.h>
 #import <HYYBase/UIView+height.h>
 #import <HYYBase/CustomView.h>
@@ -27,7 +26,6 @@
     HYYBase *base = [[HYYBase alloc] init];
     [base addTestCode];
     NSLog(@"look here : %@",base);
-    [UIColor hyyColorFill:999];
     [UIView viewBackGroundColor];
     [self.view getViewHeight];
     HYYHome *home = [HYYHome new];

@@ -8,9 +8,6 @@
       location = "group:HYYHome/HYYHome.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:HYYBaseCommon/HYYBaseCommon.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:HYYBase/HYYBase.xcodeproj">
    </FileRef>
    <FileRef

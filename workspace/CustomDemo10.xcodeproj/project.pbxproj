@@ -14,9 +14,7 @@
 		85C8772E22699A53004504BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772D22699A53004504BE /* Assets.xcassets */; };
 		85C8773122699A53004504BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772F22699A53004504BE /* LaunchScreen.storyboard */; };
 		85C8773422699A53004504BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8773322699A53004504BE /* main.m */; };
-		85C8773C22699B2F004504BE /* HYYBaseCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8773B22699B2F004504BE /* HYYBaseCommon.framework */; };
 		85C8773E22699B32004504BE /* libHYYBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8773D22699B32004504BE /* libHYYBase.a */; };
-		85C877552269AFF7004504BE /* HYYBaseCommon.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8773B22699B2F004504BE /* HYYBaseCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8776B2269B364004504BE /* libHYYHome.a */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +25,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				85C877552269AFF7004504BE /* HYYBaseCommon.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,11 +41,11 @@
 		85C8772B22699A52004504BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85C8772D22699A53004504BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85C8773022699A53004504BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		85C8773222699A53004504BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85C8773322699A53004504BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85C8773B22699B2F004504BE /* HYYBaseCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = HYYBaseCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8773D22699B32004504BE /* libHYYBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8776B2269B364004504BE /* libHYYHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C877822269BCC1004504BE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -59,7 +56,6 @@
 			files = (
 				85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */,
 				85C8773E22699B32004504BE /* libHYYBase.a in Frameworks */,
-				85C8773C22699B2F004504BE /* HYYBaseCommon.framework in Frameworks */,
 				2342B3CF519D340C4215921E /* libPods-CustomDemo10.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -73,7 +69,6 @@
 				601F8D833518CB1AFAE96AC3 /* Pods-CustomDemo10.debug.xcconfig */,
 				2744256768DB47432BCE0A66 /* Pods-CustomDemo10.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -105,7 +100,7 @@
 				85C8772A22699A52004504BE /* Main.storyboard */,
 				85C8772D22699A53004504BE /* Assets.xcassets */,
 				85C8772F22699A53004504BE /* LaunchScreen.storyboard */,
-				85C8773222699A53004504BE /* Info.plist */,
+				85C877822269BCC1004504BE /* Info.plist */,
 				85C8773322699A53004504BE /* main.m */,
 			);
 			path = CustomDemo10;
@@ -377,7 +372,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = t11dev;
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../HYYBaseCommon\"",
 					"\"$(SRCROOT)/../HYYBase\"",
 					"\"$(SRCROOT)/../HYYHom\"",
 				);
@@ -403,7 +397,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SYSTEM_HEADER_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../HYYBaseCommon\"",
 					"\"$(SRCROOT)/../HYYBase\"",
 					"\"$(SRCROOT)/../HYYHom\"",
 				);
