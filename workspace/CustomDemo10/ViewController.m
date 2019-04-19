@@ -7,12 +7,9 @@
 //
 
 #import "ViewController.h"
-#import <HYYBase/HYYBase.h>
-#import <HYYBase/UIView+param.h>
-#import <HYYBase/UIView+height.h>
 #import <HYYBase/CustomView.h>
-//#import "UIView+param.h"
 #import <HYYHome/HYYHome.h>
+#import <HYYBase/BaseHeader.h>
 
 
 @interface ViewController ()
@@ -28,7 +25,6 @@
     NSLog(@"look here : %@",base);
     [UIView viewBackGroundColor];
     [self.view getViewHeight];
-    HYYHome *home = [HYYHome new];
     
 }
 

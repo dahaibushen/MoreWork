@@ -18,6 +18,8 @@
 		85C877512269A6EE004504BE /* CustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C8774F2269A6EE004504BE /* CustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85C877522269A6EE004504BE /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C877502269A6EE004504BE /* CustomView.m */; };
 		85C877532269A77C004504BE /* CustomView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8774F2269A6EE004504BE /* CustomView.h */; };
+		85C877B32269C1BC004504BE /* BaseHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C877B22269C1BC004504BE /* BaseHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C877B42269C1F3004504BE /* BaseHeader.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C877B22269C1BC004504BE /* BaseHeader.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				85C877B42269C1F3004504BE /* BaseHeader.h in CopyFiles */,
 				85C877532269A77C004504BE /* CustomView.h in CopyFiles */,
 				85C8774E2269A5DE004504BE /* UIView+height.h in CopyFiles */,
 				85C877472269A25E004504BE /* UIView+param.h in CopyFiles */,
@@ -46,6 +49,7 @@
 		85C8774B2269A57F004504BE /* UIView+height.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+height.m"; sourceTree = "<group>"; };
 		85C8774F2269A6EE004504BE /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		85C877502269A6EE004504BE /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		85C877B22269C1BC004504BE /* BaseHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 		85C8770E22699A3E004504BE /* HYYBase */ = {
 			isa = PBXGroup;
 			children = (
+				85C877B22269C1BC004504BE /* BaseHeader.h */,
 				85C8770F22699A3E004504BE /* HYYBase.h */,
 				85C8771022699A3E004504BE /* HYYBase.m */,
 				85C877432269A052004504BE /* UIView+param.h */,
@@ -97,6 +102,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C877B32269C1BC004504BE /* BaseHeader.h in Headers */,
 				85C8774C2269A57F004504BE /* UIView+height.h in Headers */,
 				85C877512269A6EE004504BE /* CustomView.h in Headers */,
 				85C877492269A470004504BE /* UIView+param.h in Headers */,
