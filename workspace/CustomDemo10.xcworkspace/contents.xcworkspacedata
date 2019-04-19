@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:HYYMine/HYYMine.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:CustomDemo10.xcodeproj">
    </FileRef>
    <FileRef

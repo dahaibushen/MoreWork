@@ -16,6 +16,7 @@
 		85C8773422699A53004504BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8773322699A53004504BE /* main.m */; };
 		85C8773E22699B32004504BE /* libHYYBase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8773D22699B32004504BE /* libHYYBase.a */; };
 		85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8776B2269B364004504BE /* libHYYHome.a */; };
+		85C8779A2269C0CE004504BE /* libHYYMine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C877992269C0CE004504BE /* libHYYMine.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,7 @@
 		85C8773D22699B32004504BE /* libHYYBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8776B2269B364004504BE /* libHYYHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877822269BCC1004504BE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C877992269C0CE004504BE /* libHYYMine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYMine.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE44E8042C31BDC4E3535EF4 /* libPods-CustomDemo10.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemo10.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C8779A2269C0CE004504BE /* libHYYMine.a in Frameworks */,
 				85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */,
 				85C8773E22699B32004504BE /* libHYYBase.a in Frameworks */,
 				2342B3CF519D340C4215921E /* libPods-CustomDemo10.a in Frameworks */,
@@ -109,6 +112,7 @@
 		85C8773A22699B2F004504BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85C877992269C0CE004504BE /* libHYYMine.a */,
 				85C8776B2269B364004504BE /* libHYYHome.a */,
 				85C8773D22699B32004504BE /* libHYYBase.a */,
 				85C8773B22699B2F004504BE /* HYYBaseCommon.framework */,
