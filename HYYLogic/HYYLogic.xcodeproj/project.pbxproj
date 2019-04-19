@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		853DF94D226A021500B9344C /* HYYLogic.m in Sources */ = {isa = PBXBuildFile; fileRef = 853DF94C226A021500B9344C /* HYYLogic.m */; };
 		853DF94E226A021500B9344C /* HYYLogic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 853DF94B226A021500B9344C /* HYYLogic.h */; };
+		F2F309891706D9702EEC38B1 /* libPods-HYYLogic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A258CEAA383ADBB57EE1AE98 /* libPods-HYYLogic.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +26,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		29F9A5C21B4BE6014AD1D6B4 /* Pods-HYYLogic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYYLogic.release.xcconfig"; path = "Target Support Files/Pods-HYYLogic/Pods-HYYLogic.release.xcconfig"; sourceTree = "<group>"; };
 		853DF948226A021500B9344C /* libHYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYYLogic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		853DF94B226A021500B9344C /* HYYLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYLogic.h; sourceTree = "<group>"; };
 		853DF94C226A021500B9344C /* HYYLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYLogic.m; sourceTree = "<group>"; };
-		853DF95B226A043D00B9344C /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A258CEAA383ADBB57EE1AE98 /* libPods-HYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HYYLogic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B8BD5DA09546E4598FE00E /* Pods-HYYLogic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYYLogic.debug.xcconfig"; path = "Target Support Files/Pods-HYYLogic/Pods-HYYLogic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,18 +39,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F309891706D9702EEC38B1 /* libPods-HYYLogic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		254B26C4D619D575FD988967 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0B8BD5DA09546E4598FE00E /* Pods-HYYLogic.debug.xcconfig */,
+				29F9A5C21B4BE6014AD1D6B4 /* Pods-HYYLogic.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
 		853DF93F226A021500B9344C = {
 			isa = PBXGroup;
 			children = (
 				853DF94A226A021500B9344C /* HYYLogic */,
 				853DF949226A021500B9344C /* Products */,
 				853DF95A226A043D00B9344C /* Frameworks */,
+				254B26C4D619D575FD988967 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,7 +86,7 @@
 		853DF95A226A043D00B9344C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				853DF95B226A043D00B9344C /* libAFNetworking.a */,
+				A258CEAA383ADBB57EE1AE98 /* libPods-HYYLogic.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -83,6 +98,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 853DF951226A021500B9344C /* Build configuration list for PBXNativeTarget "HYYLogic" */;
 			buildPhases = (
+				9DEB008BA3E3AC8626C9E1C4 /* [CP] Check Pods Manifest.lock */,
 				853DF944226A021500B9344C /* Sources */,
 				853DF945226A021500B9344C /* Frameworks */,
 				853DF946226A021500B9344C /* CopyFiles */,
@@ -126,6 +142,31 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DEB008BA3E3AC8626C9E1C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HYYLogic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		853DF944226A021500B9344C /* Sources */ = {
@@ -253,6 +294,7 @@
 		};
 		853DF952226A021500B9344C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0B8BD5DA09546E4598FE00E /* Pods-HYYLogic.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
@@ -264,6 +306,7 @@
 		};
 		853DF953226A021500B9344C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F9A5C21B4BE6014AD1D6B4 /* Pods-HYYLogic.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				OTHER_LDFLAGS = "-ObjC";
