@@ -42,6 +42,7 @@
 		85C877F32269D57C004504BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772F22699A53004504BE /* LaunchScreen.storyboard */; };
 		85C877F42269D57C004504BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772D22699A53004504BE /* Assets.xcassets */; };
 		85C877F52269D57C004504BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772A22699A52004504BE /* Main.storyboard */; };
+		85C878122269DE93004504BE /* libHYYCart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C878112269DE93004504BE /* libHYYCart.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +100,7 @@
 		85C877E42269D140004504BE /* CustomDemoBeta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemoBeta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877FA2269D57C004504BE /* CustomDemoDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemoDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877FB2269D57D004504BE /* CustomDemoDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CustomDemoDev.plist; path = /Users/hu/MoreWork/workspace/CustomDemoDev.plist; sourceTree = "<absolute>"; };
+		85C878112269DE93004504BE /* libHYYCart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYCart.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0652FED8AB3CD5E158316C /* Pods-CustomDemoBeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoBeta.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemoBeta/Pods-CustomDemoBeta.debug.xcconfig"; sourceTree = "<group>"; };
 		C6DAFAD83182FB90B5D9E889 /* Pods-CustomDemoDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoDev.release.xcconfig"; path = "Target Support Files/Pods-CustomDemoDev/Pods-CustomDemoDev.release.xcconfig"; sourceTree = "<group>"; };
 		CCC3EE190B0D9979CDDBD4CF /* libPods-CustomDemoDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemoDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C878122269DE93004504BE /* libHYYCart.a in Frameworks */,
 				85C877B12269C175004504BE /* libHYYCategory.a in Frameworks */,
 				85C8779A2269C0CE004504BE /* libHYYMine.a in Frameworks */,
 				85C8776C2269B364004504BE /* libHYYHome.a in Frameworks */,
@@ -203,6 +206,7 @@
 		85C8773A22699B2F004504BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85C878112269DE93004504BE /* libHYYCart.a */,
 				85C877B52269C36F004504BE /* libDebug.a */,
 				85C877B02269C175004504BE /* libHYYCategory.a */,
 				85C877992269C0CE004504BE /* libHYYMine.a */,
