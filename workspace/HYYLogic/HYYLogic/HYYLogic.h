@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+
+
 @interface HYYLogic : NSObject
 
 +(instancetype)shareManager;

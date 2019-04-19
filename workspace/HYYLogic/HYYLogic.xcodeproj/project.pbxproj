@@ -28,6 +28,7 @@
 		853DF948226A021500B9344C /* libHYYLogic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYYLogic.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		853DF94B226A021500B9344C /* HYYLogic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYLogic.h; sourceTree = "<group>"; };
 		853DF94C226A021500B9344C /* HYYLogic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYLogic.m; sourceTree = "<group>"; };
+		853DF95B226A043D00B9344C /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 			children = (
 				853DF94A226A021500B9344C /* HYYLogic */,
 				853DF949226A021500B9344C /* Products */,
+				853DF95A226A043D00B9344C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +66,14 @@
 				853DF94C226A021500B9344C /* HYYLogic.m */,
 			);
 			path = HYYLogic;
+			sourceTree = "<group>";
+		};
+		853DF95A226A043D00B9344C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				853DF95B226A043D00B9344C /* libAFNetworking.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

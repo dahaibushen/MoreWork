@@ -11,6 +11,7 @@
 #import <HYYHome/HYYHome.h>
 #import <HYYBase/BaseHeader.h>
 #import <Masonry.h>
+#import <AFNetworking.h>
 
 
 @interface ViewController ()
