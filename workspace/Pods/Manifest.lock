@@ -1,16 +1,20 @@
 PODS:
+  - Bugly (2.4.8)
   - Masonry (1.0.2)
 
 DEPENDENCIES:
+  - Bugly (= 2.4.8)
   - Masonry (~> 1.0.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Bugly
     - Masonry
 
 SPEC CHECKSUMS:
+  Bugly: da3c02408c14838d498429320545a8e439392978
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 405a50a8ceba4c89b9c5f099fd6b8f2246c49671
+PODFILE CHECKSUM: ac47d6450a1c1560de4fffceb6afbecfeeef155c
 
 COCOAPODS: 1.6.1
