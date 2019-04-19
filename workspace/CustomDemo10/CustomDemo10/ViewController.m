@@ -13,6 +13,7 @@
 #import <HYYBase/UIView+height.h>
 #import <HYYBase/CustomView.h>
 //#import "UIView+param.h"
+#import <HYYHome/HYYHome.h>
 
 
 @interface ViewController ()
@@ -29,8 +30,8 @@
     [UIColor hyyColorFill:999];
     [UIView viewBackGroundColor];
     [self.view getViewHeight];
-    CustomView *vc = [[CustomView alloc] init];
-    [vc createCustomViewTest];
+    HYYHome *home = [HYYHome new];
+    
 }
 
 
