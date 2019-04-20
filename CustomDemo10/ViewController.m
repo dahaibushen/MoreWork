@@ -29,7 +29,20 @@
     [UIView viewBackGroundColor];
     [self.view getViewHeight];
     self.view.backgroundColor = [UIColor whiteColor];
-    HYYModel *model = [HYYModel new];
+    
+    [self requestData];
+}
+-(void)requestData{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"coupon" ofType:@"txt"];
+    NSData * data = [[NSData alloc] initWithContentsOfFile:path];
+    
+    NSError *error;
+    id obj = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error];
+    NSLog(@"data : %@ error: %@",obj,error);
+    NSError *modelError;
+    HYYCouponListModel *listModel = [[HYYCouponListModel alloc] initWithDictionary:obj error:&modelError];
+    HYYCouponDetailModel *detailModel =  listModel.uselist.firstObject;
+    NSLog(@"listmodel: %@",detailModel.codeId);
 }
 
 

@@ -8,6 +8,8 @@
 
 #import <JSONModel.h>
 
-@interface HYYModel : JSONModel
+@interface HYYModel : JSONModel<NSCopying,NSCoding>
+
+@property (nonatomic,copy)NSString *codeId;
 
 @end

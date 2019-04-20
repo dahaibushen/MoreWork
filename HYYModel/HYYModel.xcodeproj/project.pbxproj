@@ -11,16 +11,24 @@
 		85C87822226AABC2004504BE /* HYYModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8781F226AABC2004504BE /* HYYModel.h */; };
 		85C8782F226AB217004504BE /* HYYModels.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8782E226AB1D2004504BE /* HYYModels.h */; };
 		85C87831226AB279004504BE /* HYYModels.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C8782E226AB1D2004504BE /* HYYModels.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C87836226AB4C3004504BE /* HYYCouponListModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C87834226AB4C3004504BE /* HYYCouponListModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C87837226AB4C3004504BE /* HYYCouponListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C87835226AB4C3004504BE /* HYYCouponListModel.m */; };
+		85C8783A226AB4D1004504BE /* HYYCouponDetailModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C87838226AB4D1004504BE /* HYYCouponDetailModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85C8783B226AB4D1004504BE /* HYYCouponDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C87839226AB4D1004504BE /* HYYCouponDetailModel.m */; };
+		85C8783C226AB75C004504BE /* HYYCouponListModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C87834226AB4C3004504BE /* HYYCouponListModel.h */; };
+		85C8783D226AB760004504BE /* HYYCouponDetailModel.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C87838226AB4D1004504BE /* HYYCouponDetailModel.h */; };
 		CDE50EE99BF7311D4CD7BF4C /* libPods-HYYModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 394A8CE96A11A39C1AEC76E6 /* libPods-HYYModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		85C8781A226AABC2004504BE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				85C8783D226AB760004504BE /* HYYCouponDetailModel.h in CopyFiles */,
+				85C8783C226AB75C004504BE /* HYYCouponListModel.h in CopyFiles */,
 				85C8782F226AB217004504BE /* HYYModels.h in CopyFiles */,
 				85C87822226AABC2004504BE /* HYYModel.h in CopyFiles */,
 			);
@@ -35,6 +43,10 @@
 		85C8781F226AABC2004504BE /* HYYModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYModel.h; sourceTree = "<group>"; };
 		85C87820226AABC2004504BE /* HYYModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYModel.m; sourceTree = "<group>"; };
 		85C8782E226AB1D2004504BE /* HYYModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYModels.h; sourceTree = "<group>"; };
+		85C87834226AB4C3004504BE /* HYYCouponListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYCouponListModel.h; sourceTree = "<group>"; };
+		85C87835226AB4C3004504BE /* HYYCouponListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYCouponListModel.m; sourceTree = "<group>"; };
+		85C87838226AB4D1004504BE /* HYYCouponDetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYCouponDetailModel.h; sourceTree = "<group>"; };
+		85C87839226AB4D1004504BE /* HYYCouponDetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYCouponDetailModel.m; sourceTree = "<group>"; };
 		B998F17255C6DE4E5DCA6F80 /* Pods-HYYModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYYModel.debug.xcconfig"; path = "Target Support Files/Pods-HYYModel/Pods-HYYModel.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +104,10 @@
 				85C8782E226AB1D2004504BE /* HYYModels.h */,
 				85C8781F226AABC2004504BE /* HYYModel.h */,
 				85C87820226AABC2004504BE /* HYYModel.m */,
+				85C87834226AB4C3004504BE /* HYYCouponListModel.h */,
+				85C87835226AB4C3004504BE /* HYYCouponListModel.m */,
+				85C87838226AB4D1004504BE /* HYYCouponDetailModel.h */,
+				85C87839226AB4D1004504BE /* HYYCouponDetailModel.m */,
 			);
 			path = HYYModel;
 			sourceTree = "<group>";
@@ -104,6 +120,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C87831226AB279004504BE /* HYYModels.h in Headers */,
+				85C87836226AB4C3004504BE /* HYYCouponListModel.h in Headers */,
+				85C8783A226AB4D1004504BE /* HYYCouponDetailModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,6 +208,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C8783B226AB4D1004504BE /* HYYCouponDetailModel.m in Sources */,
+				85C87837226AB4C3004504BE /* HYYCouponListModel.m in Sources */,
 				85C87821226AABC2004504BE /* HYYModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

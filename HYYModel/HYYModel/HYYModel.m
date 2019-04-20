@@ -10,4 +10,12 @@
 
 @implementation HYYModel
 
++(JSONKeyMapper*)keyMapper{
+    return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{@"codeId":@"id"}];
+}
+
++(BOOL)propertyIsOptional:(NSString *)propertyName{
+    return YES;
+}
+
 @end
