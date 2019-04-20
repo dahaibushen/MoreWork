@@ -46,6 +46,9 @@
 		85C877F42269D57C004504BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772D22699A53004504BE /* Assets.xcassets */; };
 		85C877F52269D57C004504BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C8772A22699A52004504BE /* Main.storyboard */; };
 		85C878122269DE93004504BE /* libHYYCart.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C878112269DE93004504BE /* libHYYCart.a */; };
+		85C87829226AAD67004504BE /* libHYYModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C87828226AAD67004504BE /* libHYYModel.a */; };
+		85C8782B226AAD71004504BE /* libHYYModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8782A226AAD71004504BE /* libHYYModel.a */; };
+		85C8782D226AAD7B004504BE /* libHYYModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85C8782C226AAD7B004504BE /* libHYYModel.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -107,6 +110,9 @@
 		85C877FA2269D57C004504BE /* CustomDemoDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomDemoDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C877FB2269D57D004504BE /* CustomDemoDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = CustomDemoDev.plist; path = /Users/hu/MoreWork/workspace/CustomDemoDev.plist; sourceTree = "<absolute>"; };
 		85C878112269DE93004504BE /* libHYYCart.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYCart.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C87828226AAD67004504BE /* libHYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C8782A226AAD71004504BE /* libHYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		85C8782C226AAD7B004504BE /* libHYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libHYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0652FED8AB3CD5E158316C /* Pods-CustomDemoBeta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoBeta.debug.xcconfig"; path = "Target Support Files/Pods-CustomDemoBeta/Pods-CustomDemoBeta.debug.xcconfig"; sourceTree = "<group>"; };
 		C6DAFAD83182FB90B5D9E889 /* Pods-CustomDemoDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomDemoDev.release.xcconfig"; path = "Target Support Files/Pods-CustomDemoDev/Pods-CustomDemoDev.release.xcconfig"; sourceTree = "<group>"; };
 		CCC3EE190B0D9979CDDBD4CF /* libPods-CustomDemoDev.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomDemoDev.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C87829226AAD67004504BE /* libHYYModel.a in Frameworks */,
 				853DF955226A029D00B9344C /* libHYYLogic.a in Frameworks */,
 				85C878122269DE93004504BE /* libHYYCart.a in Frameworks */,
 				85C877B12269C175004504BE /* libHYYCategory.a in Frameworks */,
@@ -133,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C8782B226AAD71004504BE /* libHYYModel.a in Frameworks */,
 				853DF957226A02A800B9344C /* libHYYLogic.a in Frameworks */,
 				85C877D62269D140004504BE /* libDebug.a in Frameworks */,
 				85C877D72269D140004504BE /* libHYYCategory.a in Frameworks */,
@@ -147,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85C8782D226AAD7B004504BE /* libHYYModel.a in Frameworks */,
 				853DF959226A02B100B9344C /* libHYYLogic.a in Frameworks */,
 				85C877EC2269D57C004504BE /* libDebug.a in Frameworks */,
 				85C877ED2269D57C004504BE /* libHYYCategory.a in Frameworks */,
@@ -215,6 +224,9 @@
 		85C8773A22699B2F004504BE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				85C8782C226AAD7B004504BE /* libHYYModel.a */,
+				85C8782A226AAD71004504BE /* libHYYModel.a */,
+				85C87828226AAD67004504BE /* libHYYModel.a */,
 				853DF958226A02B100B9344C /* libHYYLogic.a */,
 				853DF956226A02A800B9344C /* libHYYLogic.a */,
 				853DF954226A029D00B9344C /* libHYYLogic.a */,

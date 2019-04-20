@@ -6,6 +6,12 @@ target 'HYYLogic' do
   project '../MoreWork/HYYLogic/HYYLogic.xcodeproj'
 end
 
+####这个库只想跟JSONModel有关联
+target 'HYYModel' do
+  project '../MoreWork/HYYModel/HYYModel.xcodeproj'
+  pod 'JSONModel', '~> 1.8.0'
+end
+
 post_install do |installer_representation|
   installer_representation.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
@@ -19,6 +25,7 @@ end
 def shared_pods
   pod 'Masonry', '~> 1.0.2'
   pod 'AFNetworking', '~> 3.2.1'
+#  pod 'JSONModel', '~> 1.8.0'
 end
 
 
