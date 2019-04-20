@@ -6,9 +6,8 @@
 //  Copyright © 2019 huyiyong. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
 #import <JSONModel.h>
 
-@interface HYYModel : NSObject
+@interface HYYModel : JSONModel
 
 @end
