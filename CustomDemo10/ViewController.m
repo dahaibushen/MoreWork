@@ -12,6 +12,7 @@
 #import <HYYBase/BaseHeader.h>
 #import <Masonry.h>
 #import <AFNetworking.h>
+#import <HYYModel/HYYModels.h>
 
 
 @interface ViewController ()
@@ -28,6 +29,7 @@
     [UIView viewBackGroundColor];
     [self.view getViewHeight];
     self.view.backgroundColor = [UIColor whiteColor];
+    HYYModel *model = [HYYModel new];
 }
 
 
