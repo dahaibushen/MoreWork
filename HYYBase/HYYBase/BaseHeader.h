@@ -9,9 +9,9 @@
 #ifndef BaseHeader_h
 #define BaseHeader_h
 #import "HYYBase.h"
-#import "UIView+param.h"
 #import "UIView+height.h"
 #import "CustomView.h"
+#import "NSTimer+gcd.h"
 
 
 #endif /* BaseHeader_h */

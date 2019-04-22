@@ -26,7 +26,6 @@
     HYYBase *base = [[HYYBase alloc] init];
     [base addTestCode];
     NSLog(@"look here : %@",base);
-    [UIView viewBackGroundColor];
     [self.view getViewHeight];
     self.view.backgroundColor = [UIColor whiteColor];
     

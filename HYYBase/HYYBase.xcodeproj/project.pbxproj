@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8512239D226DE66D00323A79 /* NSTimer+gcd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8512239B226DE66C00323A79 /* NSTimer+gcd.m */; };
+		8512239E226DE66D00323A79 /* NSTimer+gcd.h in Headers */ = {isa = PBXBuildFile; fileRef = 8512239C226DE66D00323A79 /* NSTimer+gcd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8512239F226DE69400323A79 /* NSTimer+gcd.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8512239C226DE66D00323A79 /* NSTimer+gcd.h */; };
 		85C8771122699A3E004504BE /* HYYBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8771022699A3E004504BE /* HYYBase.m */; };
 		85C8771222699A3E004504BE /* HYYBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8770F22699A3E004504BE /* HYYBase.h */; };
-		85C877462269A10F004504BE /* UIView+param.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C877442269A052004504BE /* UIView+param.m */; };
-		85C877472269A25E004504BE /* UIView+param.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C877432269A052004504BE /* UIView+param.h */; };
-		85C877492269A470004504BE /* UIView+param.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C877432269A052004504BE /* UIView+param.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85C8774C2269A57F004504BE /* UIView+height.h in Headers */ = {isa = PBXBuildFile; fileRef = 85C8774A2269A57F004504BE /* UIView+height.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85C8774D2269A57F004504BE /* UIView+height.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C8774B2269A57F004504BE /* UIView+height.m */; };
 		85C8774E2269A5DE004504BE /* UIView+height.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 85C8774A2269A57F004504BE /* UIView+height.h */; };
@@ -29,10 +29,10 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				8512239F226DE69400323A79 /* NSTimer+gcd.h in CopyFiles */,
 				85C877B42269C1F3004504BE /* BaseHeader.h in CopyFiles */,
 				85C877532269A77C004504BE /* CustomView.h in CopyFiles */,
 				85C8774E2269A5DE004504BE /* UIView+height.h in CopyFiles */,
-				85C877472269A25E004504BE /* UIView+param.h in CopyFiles */,
 				85C8771222699A3E004504BE /* HYYBase.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,11 +40,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8512239B226DE66C00323A79 /* NSTimer+gcd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+gcd.m"; sourceTree = "<group>"; };
+		8512239C226DE66D00323A79 /* NSTimer+gcd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+gcd.h"; sourceTree = "<group>"; };
 		85C8770C22699A3E004504BE /* libHYYBase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHYYBase.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		85C8770F22699A3E004504BE /* HYYBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYYBase.h; sourceTree = "<group>"; };
 		85C8771022699A3E004504BE /* HYYBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYYBase.m; sourceTree = "<group>"; };
-		85C877432269A052004504BE /* UIView+param.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+param.h"; sourceTree = "<group>"; };
-		85C877442269A052004504BE /* UIView+param.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+param.m"; sourceTree = "<group>"; };
 		85C8774A2269A57F004504BE /* UIView+height.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+height.h"; sourceTree = "<group>"; };
 		85C8774B2269A57F004504BE /* UIView+height.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+height.m"; sourceTree = "<group>"; };
 		85C8774F2269A6EE004504BE /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
@@ -83,10 +83,10 @@
 			isa = PBXGroup;
 			children = (
 				85C877B22269C1BC004504BE /* BaseHeader.h */,
+				8512239C226DE66D00323A79 /* NSTimer+gcd.h */,
+				8512239B226DE66C00323A79 /* NSTimer+gcd.m */,
 				85C8770F22699A3E004504BE /* HYYBase.h */,
 				85C8771022699A3E004504BE /* HYYBase.m */,
-				85C877432269A052004504BE /* UIView+param.h */,
-				85C877442269A052004504BE /* UIView+param.m */,
 				85C8774A2269A57F004504BE /* UIView+height.h */,
 				85C8774B2269A57F004504BE /* UIView+height.m */,
 				85C8774F2269A6EE004504BE /* CustomView.h */,
@@ -104,8 +104,8 @@
 			files = (
 				85C877B32269C1BC004504BE /* BaseHeader.h in Headers */,
 				85C8774C2269A57F004504BE /* UIView+height.h in Headers */,
+				8512239E226DE66D00323A79 /* NSTimer+gcd.h in Headers */,
 				85C877512269A6EE004504BE /* CustomView.h in Headers */,
-				85C877492269A470004504BE /* UIView+param.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,8 +168,8 @@
 			files = (
 				85C8774D2269A57F004504BE /* UIView+height.m in Sources */,
 				85C877522269A6EE004504BE /* CustomView.m in Sources */,
-				85C877462269A10F004504BE /* UIView+param.m in Sources */,
 				85C8771122699A3E004504BE /* HYYBase.m in Sources */,
+				8512239D226DE66D00323A79 /* NSTimer+gcd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

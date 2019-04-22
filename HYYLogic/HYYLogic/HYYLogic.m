@@ -7,7 +7,7 @@
 //
 
 #import "HYYLogic.h"
-#import <AFNetworking.h>
+//#import <AFNetworking.h>
 
 
 @implementation HYYLogic
