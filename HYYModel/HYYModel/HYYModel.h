@@ -11,6 +11,10 @@
 @interface HYYModel : JSONModel<NSCopying,NSCoding>
 
 @property (nonatomic,copy)NSString *codeId;
- //增加测试代码
+
+/**********添加测试代码**********/
+/**********添加测试代码**********/
+/**********添加测试代码**********/
+
 
 @end
